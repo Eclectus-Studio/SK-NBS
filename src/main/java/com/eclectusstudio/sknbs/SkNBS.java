@@ -13,9 +13,17 @@ public final class SkNBS extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         boolean NoteBlockAPI = true;
+        boolean isSkriptEnabled = true;
         if (!Bukkit.getPluginManager().isPluginEnabled("NoteBlockAPI")){
             getLogger().severe("*** NoteBlockAPI is not installed or not enabled. ***");
             NoteBlockAPI = false;
+            Bukkit.getPluginManager().disablePlugin(this);
+            return;
+        }
+        if (!Bukkit.getPluginManager().isPluginEnabled("Skript")){
+            getLogger().severe("*** Skript is not installed or not enabled. ***");
+            isSkriptEnabled = false;
+            Bukkit.getPluginManager().disablePlugin(this);
             return;
         }
 
