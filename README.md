@@ -13,9 +13,9 @@ skNBS is a Skript addon that integrates the NoteBlockAPI with Skript, allowing y
 ### 🎶 Songs
 Load an `.nbs` song from the `plugins/NoteBlockAPI/songs` folder:
 Use code with caution.
-
+```
 set {_song} to nbs song from "test.nbs"
-
+```
 ### 📑 Playlists
 Create a playlist from multiple songs:
 set {_song1} to nbs song from "intro.nbs"
