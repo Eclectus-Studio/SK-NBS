@@ -1,4 +1,4 @@
-name: SkNBS
+name: skNBS
 version: '1.0'
 main: com.eclectusstudio.sknbs.SkNBS
 api-version: '1.21'
