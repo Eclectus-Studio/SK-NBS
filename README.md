@@ -43,10 +43,11 @@ set {_playlist} to nbs playlist from {_song1} and {_song2}
 
 ### ⏯ Controls
 Pause, resume, or stop a SongPlayer:
+```
 pause nbs {_player}
 resume nbs {_player}
 stop nbs {_player}
-
+```
 ### ⏩ Seeking
 Skip forwards or backwards in a song/playlist by seconds:
 forward 10 seconds in nbs {_player} # skip ahead 10s
