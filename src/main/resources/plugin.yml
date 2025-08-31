@@ -1,0 +1,7 @@
+name: SkNBS
+version: '1.0-SNAPSHOT'
+main: com.eclectusstudio.sknbs.SkNBS
+api-version: '1.21'
+authors: [ Eclectus Studio ]
+description: Play NBS Songs From Skript
+depend: [Skript, NoteBlockAPI]
