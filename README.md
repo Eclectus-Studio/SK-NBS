@@ -58,14 +58,17 @@ rewind 5 seconds in nbs {_player} # rewind 5s
 *   Playlists currently don’t support seeking between songs.
 
 ## 💡 Example Script
+```
 command /music:
-trigger:
-set {_song} to nbs song from "lobby.nbs"
-play radio nbs {_song} to player
-send "&aNow playing lobby music!" to player
+    trigger:
+        set {_song} to nbs song from "lobby.nbs"
+        play radio nbs {_song} to player
+        send "&aNow playing lobby music!" to player
+
 command /dj:
-trigger:
-forward 30 seconds in nbs {_songplayer}
+    trigger:
+        forward 30 seconds in nbs {_songplayer}
+```
 
 ## 🛠 API Reference
 
