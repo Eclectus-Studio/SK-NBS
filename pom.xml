@@ -6,7 +6,7 @@
 
     <groupId>com.eclectusstudio</groupId>
     <artifactId>sknbs</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>sknbs</name>
@@ -71,7 +71,7 @@
         <dependency>
             <groupId>com.github.SkriptLang</groupId>
             <artifactId>Skript</artifactId>
-            <version>2.12.1</version>
+            <version>2.12.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

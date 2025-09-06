@@ -35,6 +35,9 @@ public final class SkNBS extends JavaPlugin {
             e.printStackTrace();
         }
 
+        //Register Types
+        Types.register();
+
         getLogger().info("SkNBS enabled! Skript <-> NoteBlockAPI bridge active.");
     }
 
